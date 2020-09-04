@@ -2,3 +2,8 @@
 
 <p><strong>Title: <%= @article.title%></strong></p>
 <p><strong>Description: <%= @article.description%></strong></p>
+<p>
+<%= link_to '<button type="button">Back To All</button>'.html_safe, articles_path %>
+<%= link_to '<button type="button">Edit</button>'.html_safe, edit_article_path(@article)  %>
+<%= link_to '<button type="button">Delete</button>'.html_safe, article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>
+</p>
