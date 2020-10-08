@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first Rails app! Built on Rails 6 using Bootstrap, the project got me familiar with many common Rails paradigms including user authentication, how it does database migrations, routing, html embedding, and so on.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can see a working prototype at https://toasty-sf-alpha-blog.herokuapp.com/
