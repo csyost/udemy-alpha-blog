@@ -8,13 +8,6 @@
   color: white !important;
 }
 
-.jumbotron  {
-  background-image: asset-url('home-background.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #logo {
   float: left;
   font-size: 1.7em;
@@ -28,6 +21,14 @@
   margin-top: 25px;
 }
 
+.jumbotron {
+  background-image: asset-url('jumbo-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
 html,
 body {
   height: 100%;
@@ -35,10 +36,9 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: lightgray;
+  background-color: lightgrey;
 }
 
 #sticky-footer {
-  flex-shrink: 0;
-  // position: fixed;
+  flex-shrink: none;
 }
